@@ -1,0 +1,18 @@
+web框架  tornado，包含应用程序和服务器程序。
+http请求——》socket——》应用程序，路由将不同请求分发给相应的逻辑处理模块——》socket——》http    ##安装 pip install tornado
+python web开发需要掌握：前端、后端
+后端：1、Python基础，重点是面向对象、各种常用数据类型、第三方模块
+      2、各种web框架 tornado、Django
+      3、设计模式  1单例模式 2简单工厂 3工厂方法
+      4、数据库   mysql  、mssql、 Oracle、 Python操作数据库
+      5、网络知识
+      6、会话技术
+      7、性能优化
+mytornado
+#!/usr/in/env python
+# -*- coding:utf-8 -*-
+from tornado import web
+from tornado import httpserver
+from tornado import ioloop
+#逻辑处理模块
+class MainpageHandler(web.Application)
