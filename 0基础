@@ -1,0 +1,68 @@
+1、if条件语句
+形式：
+if condition_1:
+    block_1
+elif condition_2:
+    block_2
+else:
+    block_3
+    
+    
+# n = input('请输入数值：')
+#
+# if n % 2 == 0:
+#     if n % 3 == 0:
+#         print '此数字能够被2和3整除'
+#     else:
+#         print '能被2整除但不能被3整除'
+# else:
+#     if n%3==0:
+#         print '能被3整除但不能被2整除'
+#     else:
+#         print '不能被2整除也不能被3整除'
+#Python中只执行第一个符合条件的语句
+#1、每个条件后面要使用冒号，表示后面的为满足条件的执行语块
+#2、使用缩进来划分语句块，相同缩进的为一个语句块
+
+2、while语句 for语句
+n = 100
+sum1 = 0
+counter = 1
+while counter <=n:
+    sum1=sum1+counter
+    counter +=1
+print counter
+print sum1
+
+无限循环，通过设置条件表达式永远不为false
+
+while count < 5:
+    pass:
+else
+    pass
+    
+for语句
+循环遍历任何序列、列表、字典
+
+Language = [1,2,3,4,'g','h',]
+for l in Language:
+    print l
+else:
+    pass
+    
+break语句跳出循环
+break之后的将不再执行
+continue语句
+执行continue后直接跳到循环开始
+Language = [1,2,3,4,'g','h',]
+for l in Language:
+    if l == 'g'
+        continue
+    print l
+else:
+    pass
+    
+    
+for i in range(0,10,2):
+    print i
+    
